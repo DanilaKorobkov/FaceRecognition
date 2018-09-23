@@ -1,9 +1,10 @@
 # Dependencies
 ```bash
-sudo apt-get install python3.7
-sudo rm -rf /usr/bin/python3
-sudo ln -s /usr/bin/python3.7 /usr/bin/python3
-sudo apt-get install python3-apt --reinstall
+sudo -s
+apt-get install python3.7
+rm -rf /usr/bin/python3
+ln -s /usr/bin/python3.7 /usr/bin/python3
+apt-get install python3-apt --reinstall
 ```
 
 
