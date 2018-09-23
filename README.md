@@ -1,13 +1,10 @@
 # Dependencies
+```bash
 sudo apt-get install python3.7
-
 sudo rm -rf /usr/bin/python3
-
 sudo ln -s /usr/bin/python3.7 /usr/bin/python3
-
-
-
 sudo apt-get install python3-apt --reinstall
+```
 
 
 # Face Recognition
