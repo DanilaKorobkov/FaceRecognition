@@ -6,7 +6,8 @@ apt-get install python3.7
 rm -rf /usr/bin/python3
 ln -s /usr/bin/python3.7 /usr/bin/python3
 
-apt-get install python3-apt --reinstall
+apt-get remove --purge python3-apt
+apt-get install python3-apt
 ```
 
 
