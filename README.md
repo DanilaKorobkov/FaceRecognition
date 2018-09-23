@@ -1,6 +1,7 @@
 # Dependencies
 ```bash
 sudo -s
+
 apt-get install python3.7
 rm -rf /usr/bin/python3
 ln -s /usr/bin/python3.7 /usr/bin/python3
