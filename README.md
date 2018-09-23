@@ -1,5 +1,6 @@
 # Dependencies
 sudo apt-get install python3.7
+
 Сменить символическую ссылку /usr/bin/python3 на python3.7
 
 sudo apt-get install python3-apt --reinstall
