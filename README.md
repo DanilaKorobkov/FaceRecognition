@@ -5,7 +5,7 @@ sudo rm -rf /usr/bin/python3
 
 sudo ln -s /usr/bin/python3.7 /usr/bin/python3
 
-Сменить символическую ссылку /usr/bin/python3 на python3.7
+
 
 sudo apt-get install python3-apt --reinstall
 
