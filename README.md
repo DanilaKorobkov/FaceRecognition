@@ -1,3 +1,8 @@
+# Dependencies
+sudo apt-get install python3.7
+sudo apt-get install python3-apt --reinstall
+
+
 # Face Recognition
 
 Recognize and manipulate faces from Python or from the command line with
