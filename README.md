@@ -8,13 +8,17 @@ ln -s /usr/bin/python3.7 /usr/bin/python3
 
 apt-get remove --purge python3-apt
 apt-get install python3-apt
+apt-get install python3.7-dev
 ```
 # Face Recognition dependencies
 ```bash
 pip3 install Pillow
 pip3 install numpy
 
-apt-get install python3.7-dev
+cd /tmp
+git clone https://github.com/DanilaKorobkov/face_recognition_models
+cd ./face_recognition_models
+sudo python3 setup.py install
 ```
 
 # Face Recognition
