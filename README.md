@@ -12,6 +12,7 @@ apt-get install python3-apt
 # Face Recognition dependencies
 ```bash
 pip3 install Pillow
+pip3 install numpy
 
 apt-get install python3.7-dev
 ```
