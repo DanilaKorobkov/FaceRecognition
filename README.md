@@ -8,6 +8,8 @@ ln -s /usr/bin/python3.7 /usr/bin/python3
 
 apt-get remove --purge python3-apt
 apt-get install python3-apt
+
+pip3 install Pillow
 ```
 
 
